@@ -1,14 +1,18 @@
 {
-// 物理学常见单词
-// 以课程排序，当然不严谨
-// 每个词只会出现一次
-// 类似组合词汇只收录少量
-// 目前还是个初学，当然是自娱自乐
+    // 物理学常见单词
+    // 以课程排序，当然不严谨
+    // 每个词只会出现一次
+    // 类似组合词汇只收录少量
+    // 目前还是个初学，当然是自娱自乐
     "数学": {
         "坐标": "coordinate",
         "矢量": "Vector",
         "坐标轴": "Axis",
-        "三维": "Three-dimensional"
+        "三维": "Three-dimensional",
+        "笛卡尔坐标": "Cartesian coordinates",
+        "球极坐标": "Spherical polar coordinates",
+        "半径": "radius (pl. radii)",
+        "": ""
     },
     "力学": {
         "经典力学": "classic mechanics",
@@ -30,22 +34,25 @@
         "绝对时空观": "Absolute space-time view",
         "参考系": "Reference System",
         "伽利略变换": "Galileo transformation",
-        "惯性参考系": "Inertial reference frame",
         "动量": "momentum",
         "力": "force",
         "力的合成": "Force synthesis",
+        "惯性": "inertia",
+        "惯性参考系": "Inertial reference frame",
+        "非惯性参考系":"Non-inertial reference frame",
+        "离心惯性力":"centrifugal inertial force",
+        "科里奥利力": "Coriolis force",
         "动能": "kinetic energy",
         "动量守恒": "Conservation of momentum",
         "机械能守恒": "Conservation of mechanical energy",
-        "冲量": "Impulse",
-        "功": "Work",
+        "冲量": "impulse",
+        "功": "work",
         "功率": "power",
         "引力": "gravity",
-        "非保守力": "Non-conservative",
         "保守力": "conservative",
+        "非保守力": "Non-conservative",
         "引力势能": "Gravitational potential energy",
-        "惯性":"inertia",
-        "科里奥利力": "Coriolis force",
+        "哥白尼原理": "Copernicus Principle",
         "碰撞": "collision",
         "弹性": "elasticity",
         "弹性力": "elasticity",
@@ -55,7 +62,6 @@
         "阻尼振动": "Damped vibration",
         "共振": "Resonance",
         "支点": "Pivot",
-        "转动": "Rotate",
         "角速度": "Angular velocity",
         "匀速圆周运动": "Uniform circular motion",
         "力矩": "Torque",
@@ -65,10 +71,13 @@
         "质心": "Centroid",
         "质心定理": "Centroid theorem",
         "重心": "Center of gravity",
-        "哥白尼原理": "Copernicus Principle",
-        "刚体": "rigid body",
+        "转轴": "Axis of rotation",
         "转动惯量": "Moment of inertia",
+        "转动动能": "Rotational kinetic energy",
+        "自由度": "Degree of freedom",
+        "刚体": "rigid body",
         "平动": "Translation",
+        "转动": "Rotate",
         "陀螺": "top",
         "进动": "Precession",
         "旋进": "Precession",
@@ -77,6 +86,7 @@
     },
     "电动力学": {
         "电动力学": "Electrodynamics",
+        "电磁学": "Electromagnetism",
         "电子": "electronic"
     },
     "量子力学": {
@@ -84,12 +94,24 @@
         "普朗克常量": "Planck constant"
     },
     "热力学": {
-        "热力学": "Thermodynamics"
+        "热力学": "Thermodynamics",
+        "统计物理学": "Statistical physics",
+        "": ""
     },
     "光学": {
         "光学": "Optics"
     },
     "声学": {},
-    "相对论": {"光速不变性": "Invariance of the speed of light"},
+    "相对论": {
+        "光速不变性": "Invariance of the speed of light",
+        "狭义相对论": "Special relativity",
+        "广义相对论": "General relativity",
+        "惯性系": "Inertial system",
+        "伽利略相对性原理": "Galileo Principle of Relativity",
+        "洛伦兹变换": "Lorentz Transformation",
+        "普朗克时间": "Planck time",
+        "光行差": "aberration",
+        "": ""
+    },
     "": {}
 }
